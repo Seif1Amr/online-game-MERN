@@ -1,0 +1,10 @@
+{
+  "info": {
+    "name": "Online Games API",
+    "version": "1.0.0"
+  },
+  "item": [
+    { "name": "Auth - register", "request": { "method": "POST", "header": [], "body": { "mode": "raw", "raw": "{ \"name\": \"Agent One\", \"email\": \"agent1@example.com\", \"password\": \"password\", \"role\": \"agent\" }" }, "url": { "raw": "http://localhost:4000/api/auth/register" } } },
+    { "name": "Auth - login", "request": { "method": "POST", "header": [], "body": { "mode": "raw", "raw": "{ \"email\": \"agent1@example.com\", \"password\": \"password\", \"role\": \"agent\" }" }, "url": { "raw": "http://localhost:4000/api/auth/login" } } }
+  ]
+}
