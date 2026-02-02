@@ -36,6 +36,8 @@ Notes on financial logic:
 - Wallet adjustments always create a `WalletLedger` entry and are performed inside MongoDB transactions to keep balances consistent.
 - All money math is done in backend; frontend should not compute balances.
 
+Video link : https://drive.google.com/file/d/12W218YrRweScy4bCkj_QhORMhsNLM5Wx/view?usp=drive_link
+
 <img width="1919" height="1015" alt="2" src="https://github.com/user-attachments/assets/f9b8c461-7a28-4f2a-8e75-893a229950b2" />
 <img width="1919" height="1005" alt="1" src="https://github.com/user-attachments/assets/4f559fc4-ff6b-4d6e-a954-9405d476c628" />
 
